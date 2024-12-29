@@ -1,0 +1,73 @@
+/* Auth.css */
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+  background-color: #f3f4f6;
+  margin: 0;
+}
+
+.auth-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 300px;
+}
+
+.auth-card h2 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.auth-card form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.auth-card input {
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.auth-card button {
+  padding: 0.8rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: white;
+  background-color: #007bff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.auth-card button:disabled {
+  background-color: #a1c6ff;
+  cursor: not-allowed;
+}
+
+.auth-card button:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+
+.auth-card .toggle-btn {
+  background-color: transparent;
+  color: #007bff;
+  border: none;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+
+.auth-card .toggle-btn:disabled {
+  color: #a1c6ff;
+  cursor: not-allowed;
+}

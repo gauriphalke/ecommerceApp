@@ -1,0 +1,18 @@
+.wishlist {
+  padding: 20px;
+  min-height: 50vh;
+}
+
+.wishlist h2 {
+  margin-bottom: 20px;
+}
+
+.wishlist-items {
+  list-style: none;
+  padding: 0;
+}
+
+.empty-wishlist {
+  text-align: center;
+}
+
